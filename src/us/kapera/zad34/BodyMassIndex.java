@@ -27,6 +27,7 @@ public class BodyMassIndex {
   }
 
   public String getDescription() {
+    // FIXIT:
     return description.getRange(bmi).getDescription();
   }
 }
